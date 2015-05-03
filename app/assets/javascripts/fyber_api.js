@@ -1,5 +1,5 @@
 (function(base) {
-  var BASE_PATH = '/api/v1/';
+  var BASE_PATH = '/api/v1';
 
   var OFFERS_PATH = '/offers';
 
