@@ -1,4 +1,4 @@
-== README
+##README
 
 The `FYBER_API_KEY` is to be added to the newly created `.env` file in the root folder
 
