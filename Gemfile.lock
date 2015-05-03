@@ -1,5 +1,6 @@
-PATH
-  remote: ../fyber_api_wrapper
+GIT
+  remote: git@github.com:dinks/fyber_api_wrapper.git
+  revision: 46b309ccdb8166d4c894f38fd9d66669af7d7014
   specs:
     fyber_api_wrapper (0.0.1)
       addressable

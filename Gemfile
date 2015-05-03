@@ -35,7 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'grape'
 gem 'grape-entity'
 
-gem 'fyber_api_wrapper', path: '../fyber_api_wrapper'
+gem 'fyber_api_wrapper', git: 'git@github.com:dinks/fyber_api_wrapper.git'
 
 gem 'hogan_assets'
 
