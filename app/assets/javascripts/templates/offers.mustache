@@ -1,0 +1,15 @@
+<div id="result-columns">
+  {{#offers}}
+    <figure class="offer">
+      {{#thumbnail}}
+        <img src={{lowres}} alt="{{title}}" />
+      {{/thumbnail}}
+      <figcaption>
+        <a href="{{link}}" target="_blank">{{title}}</a>
+        {{#time_to_payout}}
+          Payout: {{amount}} readable in {{readable}}
+        {{/time_to_payout}}
+      </figcaption>
+    </figure>
+  {{/offers}}
+</div>
